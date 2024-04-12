@@ -1,0 +1,79 @@
+.sec-2-contianer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-container {
+  width: 60%;
+  overflow-y: scroll;
+  height: 100vh;
+  padding: 60px;
+}
+
+.drawer-section {
+  width: 30%;
+  overflow: hidden;
+}
+
+.close-btn {
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-dot {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.progress-bar-container {
+  display: flex;
+  gap:15px;
+  padding: 30px 0;
+}
+.progress {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 50px;
+  height: 20px;
+  color: #f3f3f3;
+  border: 1px solid #000;
+}
+
+.progress-bar {
+  background-color: #000;
+  text-align: center;
+  line-height: 18px;
+  color: #000;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.creative-btn button {
+  background-color: transparent;
+  padding: 12px 18px;
+  border: 2px solid #000;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contentBox {
+  height:90px ;
+  width: 300px;
+  border: 1px solid #000;
+  margin: 20px 10px;
+  border-radius: 5px;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 0 10px;
+}
+

@@ -1,0 +1,19 @@
+.color-picker {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.compleate-btn {
+  margin-top: 90px;
+}
+
+.compleate-btn  button{
+  height: 40px;
+  width: 120px;
+  background-color: transparent;
+  border: 1px solid #000;
+}
+
+.active {
+  border: 2px solid #000 !important;
+}
